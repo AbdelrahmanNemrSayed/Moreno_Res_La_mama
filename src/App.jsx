@@ -531,14 +531,20 @@ export default function App() {
     async (newSettings) => {
       try {
         console.log("Saving new settings:", newSettings);
-        // Firestore doesn't accept undefined values, sanitize them
         const sanitizedSettings = Object.fromEntries(
           Object.entries(newSettings).filter(([_, v]) => v !== undefined)
         );
         
-        await setDoc(doc(db, "settings", "general"), sanitizedSettings, {
-          merge: true,
-        });
+        // Timeout wrapper for setDoc to prevent infinite hang
+        const timeoutPromise = new Promise((_, reject) => 
+          setTimeout(() => reject(new Error("Timeout: Firebase connection blocked")), 8000)
+        );
+
+        await Promise.race([
+          setDoc(doc(db, "settings", "general"), sanitizedSettings, { merge: true }),
+          timeoutPromise
+        ]);
+
         console.log("Settings saved successfully!");
         showToast(t.settingsUpdated || "تم حفظ الإعدادات بنجاح!");
       } catch (e) {
