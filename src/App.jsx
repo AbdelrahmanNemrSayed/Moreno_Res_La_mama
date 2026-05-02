@@ -522,15 +522,23 @@ export default function App() {
   const updateSettingsInDB = useCallback(
     async (newSettings) => {
       try {
-        await setDoc(doc(db, "settings", "general"), newSettings, {
+        console.log("Saving new settings:", newSettings);
+        // Firestore doesn't accept undefined values, sanitize them
+        const sanitizedSettings = Object.fromEntries(
+          Object.entries(newSettings).filter(([_, v]) => v !== undefined)
+        );
+        
+        await setDoc(doc(db, "settings", "general"), sanitizedSettings, {
           merge: true,
         });
-        showToast(t.settingsUpdated);
+        console.log("Settings saved successfully!");
+        showToast(t.settingsUpdated || "تم حفظ الإعدادات بنجاح!");
       } catch (e) {
-        showToast(t.errorSavingSettings);
+        console.error("Error saving settings:", e);
+        showToast(t.errorSavingSettings || "حدث خطأ أثناء حفظ الإعدادات");
       }
     },
-    [t, db],
+    [t, db, showToast],
   );
 
   const submitBooking = useCallback(
