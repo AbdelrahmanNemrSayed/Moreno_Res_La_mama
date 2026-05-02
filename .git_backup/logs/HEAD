@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 e3798b0f183a65eadd857476a64964c8d370afd8 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777104157 +0300	commit (initial): Initial commit
+e3798b0f183a65eadd857476a64964c8d370afd8 0000000000000000000000000000000000000000 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777104212 +0300	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 e3798b0f183a65eadd857476a64964c8d370afd8 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777104212 +0300	Branch: renamed refs/heads/master to refs/heads/main
+e3798b0f183a65eadd857476a64964c8d370afd8 2ba4393ce9c8827501debfa7e513b9be65d33017 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777115744 +0300	commit: updates
+2ba4393ce9c8827501debfa7e513b9be65d33017 6db058340ef519ca421e5316747ce78d006fcda8 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777120537 +0300	commit: updates
+6db058340ef519ca421e5316747ce78d006fcda8 6f2e5a5936ad1e54dba280df7d2b9c0161814ed0 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777125598 +0300	commit: updates
+6f2e5a5936ad1e54dba280df7d2b9c0161814ed0 b78348a5a00b1e15c22911d72d773a0171d4748b AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777192234 +0300	commit: updates 26-4-2026
+b78348a5a00b1e15c22911d72d773a0171d4748b fe8a9a2216e128d2e039f9f133a3be1b4454447c AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777195056 +0300	commit: updates 26-4-2026
+fe8a9a2216e128d2e039f9f133a3be1b4454447c e304da14fd9564f4a441b73a9c9f194bb58dcc73 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777196678 +0300	commit: Fix login Enter key and routing
+e304da14fd9564f4a441b73a9c9f194bb58dcc73 0bfe5d7e9ac183e5b34422003b5c8b41228aa61b AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777201059 +0300	commit: Fix aggressive caching and add Network First strategy
+0bfe5d7e9ac183e5b34422003b5c8b41228aa61b dfdb2bacd32fe2c057d08df96cf8ac59de4f83ea AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777204789 +0300	commit: review section added
+dfdb2bacd32fe2c057d08df96cf8ac59de4f83ea c40f1318c81a5e0f164a130af76bfd1f06a82eba AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777211504 +0300	commit: added new features
+c40f1318c81a5e0f164a130af76bfd1f06a82eba 279e90a9f7cfd092d05ae2ca72654c0044b03a3c AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777272606 +0300	commit: added new features 27-4-2026
+279e90a9f7cfd092d05ae2ca72654c0044b03a3c bff15c5d0184ef228635f7e054377ec281fee72e AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777272951 +0300	commit: added new features 27-4-2026
+bff15c5d0184ef228635f7e054377ec281fee72e c08d47d67c05565a669f98aaf92db90b6f8a7d40 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777274359 +0300	commit: added new features 1.1 27-4-2026
+c08d47d67c05565a669f98aaf92db90b6f8a7d40 d6fe2ac4ed216b58edfb1bf0bdce4455108ebd7a AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777281447 +0300	commit: added new features 1.2 27-4-2026
+d6fe2ac4ed216b58edfb1bf0bdce4455108ebd7a 0dfdcf7903ee330870e8086f62a3bfef197473da AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777497038 +0300	commit: added new features 1.3 29-4-2026
+0dfdcf7903ee330870e8086f62a3bfef197473da eaa914cb405359ffdd800bf08fa80a02335d344f AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777500500 +0300	pull origin main --rebase (start): checkout eaa914cb405359ffdd800bf08fa80a02335d344f
+eaa914cb405359ffdd800bf08fa80a02335d344f 7e07af50a6344e41601dc7a901b08b21c5f71c9e AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777568377 +0300	commit: Update v1.4: Comment Area Added
+7e07af50a6344e41601dc7a901b08b21c5f71c9e 834b6744bf24d8c51409be4de8f7a498991cc3a0 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777718477 +0300	commit: Update v1.5: Comment Fix Errors and add Email Report
+834b6744bf24d8c51409be4de8f7a498991cc3a0 60e4890305219d76c182dbadf7c9a6e89bd6ad6a AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777720483 +0300	commit (amend): Update v1.5: Comment Fix Errors and add Email Report
+834b6744bf24d8c51409be4de8f7a498991cc3a0 abeb1b88b45d825ed188b5a43a138f9f5d5a3bd2 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777720625 +0300	commit: Final fixes: Updated Script URL, Cart quantity display, and Checkout logic
+834b6744bf24d8c51409be4de8f7a498991cc3a0 428ec384e1d79a226da6451bdd9c779d7ee0a47b AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777722722 +0300	commit: Update v1.5: Comment Fix Errors and add Email Report

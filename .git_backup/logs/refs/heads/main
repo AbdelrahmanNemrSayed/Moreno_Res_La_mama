@@ -1,0 +1,17 @@
+0000000000000000000000000000000000000000 e3798b0f183a65eadd857476a64964c8d370afd8 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777104157 +0300	commit (initial): Initial commit
+e3798b0f183a65eadd857476a64964c8d370afd8 e3798b0f183a65eadd857476a64964c8d370afd8 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777104212 +0300	Branch: renamed refs/heads/master to refs/heads/main
+e3798b0f183a65eadd857476a64964c8d370afd8 2ba4393ce9c8827501debfa7e513b9be65d33017 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777115744 +0300	commit: updates
+2ba4393ce9c8827501debfa7e513b9be65d33017 6db058340ef519ca421e5316747ce78d006fcda8 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777120537 +0300	commit: updates
+6db058340ef519ca421e5316747ce78d006fcda8 6f2e5a5936ad1e54dba280df7d2b9c0161814ed0 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777125598 +0300	commit: updates
+6f2e5a5936ad1e54dba280df7d2b9c0161814ed0 b78348a5a00b1e15c22911d72d773a0171d4748b AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777192234 +0300	commit: updates 26-4-2026
+b78348a5a00b1e15c22911d72d773a0171d4748b fe8a9a2216e128d2e039f9f133a3be1b4454447c AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777195056 +0300	commit: updates 26-4-2026
+fe8a9a2216e128d2e039f9f133a3be1b4454447c e304da14fd9564f4a441b73a9c9f194bb58dcc73 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777196678 +0300	commit: Fix login Enter key and routing
+e304da14fd9564f4a441b73a9c9f194bb58dcc73 0bfe5d7e9ac183e5b34422003b5c8b41228aa61b AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777201059 +0300	commit: Fix aggressive caching and add Network First strategy
+0bfe5d7e9ac183e5b34422003b5c8b41228aa61b dfdb2bacd32fe2c057d08df96cf8ac59de4f83ea AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777204789 +0300	commit: review section added
+dfdb2bacd32fe2c057d08df96cf8ac59de4f83ea c40f1318c81a5e0f164a130af76bfd1f06a82eba AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777211504 +0300	commit: added new features
+c40f1318c81a5e0f164a130af76bfd1f06a82eba 279e90a9f7cfd092d05ae2ca72654c0044b03a3c AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777272606 +0300	commit: added new features 27-4-2026
+279e90a9f7cfd092d05ae2ca72654c0044b03a3c bff15c5d0184ef228635f7e054377ec281fee72e AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777272951 +0300	commit: added new features 27-4-2026
+bff15c5d0184ef228635f7e054377ec281fee72e c08d47d67c05565a669f98aaf92db90b6f8a7d40 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777274359 +0300	commit: added new features 1.1 27-4-2026
+c08d47d67c05565a669f98aaf92db90b6f8a7d40 d6fe2ac4ed216b58edfb1bf0bdce4455108ebd7a AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777281447 +0300	commit: added new features 1.2 27-4-2026
+d6fe2ac4ed216b58edfb1bf0bdce4455108ebd7a 0dfdcf7903ee330870e8086f62a3bfef197473da AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777497038 +0300	commit: added new features 1.3 29-4-2026
+0dfdcf7903ee330870e8086f62a3bfef197473da 834b6744bf24d8c51409be4de8f7a498991cc3a0 AbdelrahmanNemrSayed <abdelrahmankahlawy9@gmail.com> 1777720367 +0300	rebase (finish): refs/heads/main onto eaa914cb405359ffdd800bf08fa80a02335d344f
