@@ -361,11 +361,19 @@ export default function App() {
       doc(db, "settings", "general"),
       (docSnap) => {
         if (docSnap.exists()) {
+          console.log("Settings loaded from DB:", docSnap.data());
           setSettings((prev) => ({ ...prev, ...docSnap.data() }));
+        } else {
+          console.log("Settings document does not exist yet.");
         }
         settingsLoaded = true;
         checkLoading();
       },
+      (error) => {
+        console.error("Error fetching settings:", error);
+        settingsLoaded = true;
+        checkLoading();
+      }
     );
 
     // Sync Bookings & Alert Logic
