@@ -32,6 +32,13 @@ self.addEventListener('fetch', (event) => {
   // Only handle GET requests
   if (event.request.method !== 'GET') return;
 
+  // Do not intercept cross-origin requests (like Firebase Firestore)
+  const url = new URL(event.request.url);
+  if (url.origin !== self.location.origin) return;
+
+  // Do not intercept chrome-extension requests
+  if (url.protocol === 'chrome-extension:') return;
+
   event.respondWith(
     fetch(event.request)
       .then((response) => {
@@ -39,7 +46,7 @@ self.addEventListener('fetch', (event) => {
         if (response && response.status === 200 && response.type === 'basic') {
           const responseToCache = response.clone();
           caches.open(CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
+            cache.put(event.request, responseToCache).catch(err => console.error("Cache put error:", err));
           });
         }
         return response;
